@@ -1,0 +1,166 @@
+.footer{
+    height: 100vh;
+    background-color: #111111;
+    padding: 120px 230px;
+    position: relative;
+}
+
+.footer h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.contato-contain{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.footer p{
+    color: #A19999;
+    
+}
+
+#cr{
+  position: absolute;
+  bottom: 100px;
+}
+
+.contato-contain a{
+    text-decoration: none;
+    color: #b6b6b6;
+}
+
+.contato-left{
+    width: 45%;
+}
+
+.contato-left p{
+    font-size: 22px;
+    color: #A19999;
+}
+
+.contato-right ul li{
+    font-family: 'Fira Sans';
+    color: #b6b6b6;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 2.7rem;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.contato-right ul li a:hover{
+    opacity: .7;
+}
+
+.icon-contato{
+    width: 20px;
+    fill: #b6b6b6;
+    margin-left: 10px;
+  
+}
+
+#cr a{
+    text-decoration: underline;
+    color: #A19999;
+}
+
+@media screen and (max-width: 1300px){
+    
+    .footer{
+        padding: 160px 100px;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px){
+    
+    .footer{
+        padding: 120px 100px;
+        
+    }
+
+    .contato-contain{
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    
+        
+    .contato-left{
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 700px){
+
+    .footer{
+        padding: 120px 70px;
+    }
+
+    .footer h1{
+        font-size: 40px;
+    }
+
+    .contato-contain{
+        margin-top: 40px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .footer{
+        padding: 70px 30px;
+    }
+
+        
+    .contato-right ul li{
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 2.7rem;
+    
+    }
+
+        
+    .icon-contato{
+        width: 17px;
+        fill: #b6b6b6;
+        /* margin-left: 10px; */
+    
+    }
+
+    .footer h1{
+        font-size: 40px;
+    }
+
+        
+    .contato-left p{
+        font-size: 18px;
+    }
+
+        
+    #cr{
+        position: absolute;
+        font-size: 12px;
+        bottom: 20px;
+    
+    }
+
+    .footer h1{
+        font-size: 35px;
+    }
+
+
+}

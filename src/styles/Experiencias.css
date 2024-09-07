@@ -1,0 +1,264 @@
+
+.Expe{
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+    background-color: #1F1F1F;
+    padding: 160px 230px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.Expe .left-cont{
+    position: relative;
+    width: 45%;
+    /* background-color: aqua; */
+}
+
+.Expe .left-cont::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    float: left;
+    left: -250px;
+    width: 300px;
+    height: 300px;
+    background-color: #2B2B2B;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+   
+}
+
+
+@keyframes up-down {
+    0% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(-5px);
+    }
+    
+}
+
+
+.Expe .left-cont .line{
+    margin-top: 20px;
+    width: 100%;
+    height: 2px;
+    background-color: var(--second-color);
+}
+
+
+
+
+.Expe .left-cont h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: var(--main-color);
+    padding-bottom: 20px;
+}
+
+
+.Expe .left-cont p{
+    font-family: 'Roboto';
+    color: #A19999;
+    margin-top: 20px;
+    font-weight: 500;
+    line-height: 1.6rem;
+}
+
+
+.Expe .right-cont .card{
+    position: relative;
+    background-color: #1A1A1A;
+    width: 430px;
+    height: 140px;
+    padding: 20px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    margin-bottom: 20px;
+}
+
+.Expe .right-cont .card::before{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 60%;
+   
+    background-color: var(--main-color);
+    top: 0;
+    left: -4px;
+    border-top-left-radius: 10px;
+
+}
+
+
+.Expe .right-cont .card:hover{
+    background-color: #2b2a2a;
+    animation: up .4s ease-in-out;
+
+}
+
+
+
+@keyframes up {
+    to{
+        transform: translateY(0px);
+    }
+    from{
+        transform: translateY(-3px);
+    }
+}
+
+.Expe .right-cont .card p{
+    color: #838080;
+    font-size: 12px;
+}
+
+
+.Expe .right-cont .card h3{
+  
+    color: var(--white-font-black-font-main);
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.txt-card{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.txt-card p{
+    width: 80%;
+}
+
+.icon-card{
+    margin-top: -70px;
+
+    fill: var(--second-color);
+    width: 30px;
+}
+
+
+@media screen and (max-width: 1300px){
+    
+    .Expe{
+        padding: 160px 100px;
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+    
+    .Expe{
+        flex-direction: column;
+        padding: 120px 100px;
+        height: max-content;
+    }
+
+        
+    .Expe .left-cont h1{
+        padding-bottom: 10px;
+    }
+
+    .Expe .left-cont{
+        width: 100%;
+    }
+
+    .Expe .right-cont{
+        margin-top: 50px;
+    }
+
+    .right-cont{
+        display: flex;
+        
+        /* background-color: #DEC834; */
+        /* justify-content: center;
+        align-items: center; */
+        flex-direction: column;
+    }
+   
+}
+
+
+
+
+@media screen and (max-width: 700px){
+
+    
+    .Expe{
+        padding: 120px 70px;
+    }
+
+     .Expe .right-cont .card{
+        width: 100%;
+    }
+
+    
+    .Expe .left-cont h1{
+        font-size: 40px;
+    }
+}
+
+
+
+@media screen and (max-width: 500px){
+
+    .Expe .right-cont .card{
+        width: 100%;
+    }
+
+    .Expe{
+        flex-direction: column;
+        padding: 70px 30px;
+        height: max-content;
+    }
+
+
+    .Expe .left-cont h1{
+        font-size: 35px;
+    }
+
+        
+    .Expe .left-cont p{
+        margin-top: 12px;
+        font-size: 15px;
+        line-height: 1.4rem;
+    }
+
+        
+    .icon-card{
+        margin-top: -30px;
+    }
+
+        
+    .icon-card{
+        width: 25px;
+    }
+
+        
+    .Expe .left-cont::before{
+        left: -150px;
+        width: 170px;
+        height: 220px;
+    }
+
+    .Expe .right-cont .card{
+        height: max-content;
+    }
+
+}
+
+
+
+@media screen and (max-width: 400px) {
+   
+    .Expe{
+        flex-direction: column;
+        padding: 70px 30px;
+        height: max-content;
+    }
+    
+  
+}

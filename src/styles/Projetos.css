@@ -1,0 +1,201 @@
+.Proj{
+    min-height: 100vh;
+    background-color: #1F1F1F;
+    padding: 160px 230px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Proj .imgfundo{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+}
+
+.Proj h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: var(--main-color);
+    padding-bottom: 20px;
+}
+
+.Proj p{
+    font-family: 'Roboto';
+    color: #A19999;
+    margin-top: 20px;
+    font-weight: 500;
+    line-height: 1.6rem;
+}
+
+.row{
+    margin-top: 50px;
+    width: 100%;
+    /* background-color: #DEC834; */
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+
+.row a{
+    text-decoration: none;
+}
+
+.card-proj{
+    position: relative;
+    width: 240px;
+    height: 300px;
+    background-color: #2C2C2C;
+    cursor: pointer;
+    /* box-shadow: 3px 3px 4px #c6c2c2; */
+    overflow: hidden;
+    border-radius: 5px;
+    
+}
+
+
+
+.card-proj img{
+    transition: .5s;
+    width: 100%;
+}
+
+.card-proj img:hover{
+    transform: scale(1.1);
+}
+
+.card-proj .text-card{
+    padding: 12px;
+    
+}
+
+.card-proj h3{
+    font-size: 13px;
+    text-transform: uppercase;
+    color: var(--white-font-black-font-main);
+    padding-bottom: 0px;
+}
+
+.card-proj p{
+    font-size: 12px;
+    color: #bbbbbb;
+    line-height: 1rem;
+    margin-top: 10px;
+}
+
+.card-proj a{
+    font-size: 13px;
+    position: absolute;
+    bottom: 15px;
+ 
+}
+
+
+
+@media screen and (max-width: 1300px){
+
+    .Proj{
+        padding: 160px 100px;
+    }
+
+    .row{
+        width: 100%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 700px){
+
+    .Proj{
+        padding: 120px 70px;
+    }
+
+        
+    .Proj h1{
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px){
+
+        
+    .Proj p{
+       font-size: 15px;
+        margin-top: 10px;
+        font-weight: 500;
+        line-height: 1.5rem;
+    }
+
+    .Proj{
+        padding: 80px 30px;
+        
+    }
+
+        
+    .Proj h1{
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+
+    .row{
+        gap: 15px;
+        /* justify-content: space-between; */
+    }
+
+
+    .card-proj{
+        position: relative;
+        width: 160px;
+        height: 210px;
+        margin: auto;
+      
+    }
+
+        
+    .card-proj .text-card{
+        padding: 10px;
+        
+    }
+
+        
+    .card-proj h3{
+        font-size: 11px;
+        padding-bottom: 0px;
+    }
+
+    .card-proj p{
+        font-size: 9px;
+        color: #bbbbbb;
+        line-height: .7rem;
+        margin-top: 10px;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 400px){
+    .card-proj{
+        width: 80%;
+        min-height: 210px;
+        height: max-content;
+        margin: auto;
+      
+    }
+
+    .row{
+       /* background-color: #DEC834; */
+       display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

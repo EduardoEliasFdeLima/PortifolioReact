@@ -1,0 +1,290 @@
+.Forma{
+    position: relative;
+    height: 100vh;
+    background-color: #222222;
+    padding: 150px 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 50px; */
+    overflow: hidden;
+}
+
+.Forma h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+
+.forma-left{
+    position: relative;
+    width: 45%;
+    /* background-color: aqua; */
+}
+
+.forma-left p{
+    font-family: 'Roboto';
+    color: #A19999;
+    margin-top: 20px;
+    font-weight: 500;
+    line-height: 1.6rem;
+}
+
+.blocks{
+    display: flex;
+    flex-direction: row;
+    /* background-color: #A19999; */
+    padding: 0;
+    justify-content: start;
+    margin-top: 20px;
+}
+
+.block{
+
+    box-sizing: border-box;
+    background-color: #1B1B1B;
+    width: 200px;
+    height: 200px;  
+    padding: 20px;
+    /* margin: 15px; */
+    margin-right: 15px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: inset 2px 2px 4px #000;
+}
+
+.block:hover{
+    background-color: #0c0c0c;
+}
+
+.block h2{
+    font-family: 'Fira Sans';
+    font-size: 15px;
+    color: #9C9595;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.block h1{
+    font-size: 20px;
+    text-transform: none;
+    color: var(--second-color);
+}
+
+.block h3{
+    margin-top: 3px;
+    color: #575454;
+    font-size: 14px;
+}
+
+.block p{
+    color: #CFCFCF;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 15px;
+}
+
+.block .line-block{
+    width: 70%;
+    height: 2px;
+    background-color: #9C9595;
+}
+
+
+.forma-right{
+    position: relative;
+    z-index: 1;
+    
+    /* background-color: aqua; */
+}
+
+.forma-right::after{
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #2D2D2D;
+    right: -80%;
+    top: -20%;
+}
+
+
+.forma-right ul li{
+    color: #939393;
+    font-weight: 500;
+    list-style: none;
+    margin-left: 20px;
+    line-height: 1.5rem;
+}
+
+.forma-right ul li a{
+    text-decoration: none;
+    color: #939393;
+}
+
+
+.forma-right ul li a:hover{
+    text-decoration: underline;
+}
+
+.lists{
+    margin: 20px;
+    font-family: 'Fira sans';
+}
+
+.lists h2{
+    
+    text-transform: uppercase;
+   
+    color: var(--white-font-black-font-main);
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.icon-list{
+    fill: var(--white-font-black-font-main);
+    width: 16px;
+   
+}
+
+
+@media screen and (max-width: 1300px){
+     
+    .Forma{
+        padding: 160px 100px;
+    }
+
+        
+    .forma-right ul li{
+        font-size: 14px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1000px){
+    
+    .Forma{
+        flex-direction: column;
+        padding: 120px 100px;
+        height: max-content;
+    }
+
+        
+    .forma-left{
+        position: relative;
+        width: 100%;
+        /* background-color: aqua; */
+    }
+
+        
+    .forma-right{
+        margin-top: 70px;
+    }
+
+    .blocks{
+        margin-top: 40px;
+    }
+        
+    .block{
+        width: 170px;
+        height: 170px;  
+        padding: 15px;
+
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 700px){
+
+    .Forma{
+        flex-direction: column;
+        padding: 120px 70px;
+        height: max-content;
+    }
+    
+    .lists{
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    
+        
+    .Forma h1{
+        font-size: 40px;
+    }
+
+    .block h1{
+        font-size: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px){
+
+       
+    .Forma{
+        flex-direction: column;
+        padding: 70px 30px;
+        height: max-content;
+    }
+
+    .forma-left h1{
+        font-size: 35px;
+    }
+        
+    .forma-left p{
+        margin-top: 15px;
+        font-weight: 500;
+        line-height: 1.4rem;
+        font-size: 15px;
+    }
+
+
+    .forma-right ul li{
+        font-size: 11px;
+        line-height: 1.2rem;
+    }
+
+    .forma-right{
+        margin-top: 40px;
+    }
+        
+    .block{
+        width: 160px;
+        height: 160px;  
+        padding: 15px;
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+
+    .block h2{
+        font-size: 13px;
+    }
+
+    .block h1{
+        font-size: 18px;
+    }
+
+    .block h3{
+        margin-top: 3px;
+        font-size: 12px;
+    }
+
+    .block p{
+        font-size: 14px;
+        font-weight: 700;
+        bottom: 10px;
+    }
+    
+
+}
