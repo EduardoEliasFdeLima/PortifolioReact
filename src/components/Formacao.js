@@ -34,7 +34,7 @@ function Formacao() {
                     <li><a href='https://drive.google.com/file/d/1hCeUS91NQJQe0-RC6U-JCB9atAVHURWL/view?usp=sharing' target='new_blank'>React Completo................................................................36horas</a></li>
                     <li><a href='https://drive.google.com/file/d/1_jQCCE1FDiN4DDIcGcF52SPG_7JDGd0d/view?usp=sharing' target='new_blank'>UI Design para Iniciantes...............................................34horas</a></li>
                     <li><a href='https://drive.google.com/file/d/1N_rbdb0MvqnaIQ_CpUhJcC6lB1-yEX1Z/view?usp=sharing' target='new_blank'>HTML: Introdução a páginas webs...............................30horas</a></li>
-                    <li><a href='https://drive.google.com/file/d/1o4wq2EcniWy0z9VtuIQJ3g3B-5j_uK3n/view?usp=sharing' target='new_blank'>HTML: Tabelas e formulários.........................................20horas</a></li>
+                    <li><a href='https://drive.google.com/file/d/1gs4BlQBD9pI1HthaLVmY_kkWefoARubQ/view?usp=sharing' target='new_blank'>HTML: Tabelas e formulários.........................................20horas</a></li>
                     <li><a href='https://drive.google.com/file/d/17yJ1UnJOBKRPzI6Wp9laxj0l3HpETsC2/view?usp=sharing' target='new_blank'>CSS: folhas de estilo........................................................30horas</a></li>
                 </ul>
             </div>
