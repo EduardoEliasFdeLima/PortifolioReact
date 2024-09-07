@@ -19,7 +19,6 @@ function Contato() {
                     <ul>
                         <li><LinkeIcon className="icon-contato"/>  <a href='https://www.linkedin.com/in/eduardo-elias-4008422b7/' target='new_blank'>Eduardo Elias</a></li>
                         <li><GithubIcon className="icon-contato"/>  <a href='https://github.com/EduardoEliasFdeLima' target='new_blank'>EduardoEliasFdeLima</a></li>
-                        <li><WhatsIcon className="icon-contato"/>  12 98297-6175</li>
                         <li><EmailIcon className="icon-contato"/>  edueuler.elias04@gmail.com</li>
                     </ul>
                 </div>
