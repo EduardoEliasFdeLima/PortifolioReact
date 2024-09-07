@@ -14,7 +14,7 @@ function Experiencias() {
           <div className='left-cont'>
             <h1>Experiência</h1>
             <p>Fui jovem aprendiz em <b>suporte de ti/infraestrutura</b> por 8 meses em uma rede de padarias</p>
-            <p>Realizo pequenos projetos utilizando <b>HTML</b>, <b>CSS</b> e <b>JS</b>. Recentemente estou implementando projetos que com <b>UI design</b><b>React</b>.</p>
+            <p>Realizo pequenos projetos utilizando <b>HTML</b>, <b>CSS</b> e <b>JS</b>. Recentemente estou implementando projetos com <b>UI design</b> e <b>React</b>.</p>
             <div className='line' id="line"></div>
           </div>
           
