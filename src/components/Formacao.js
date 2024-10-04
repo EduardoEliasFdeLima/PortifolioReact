@@ -1,13 +1,24 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import '../styles/Formacao.css'
 import {ReactComponent as BookOpenIcon} from '../svgs/book-open-solid.svg'
 import {ReactComponent as LanguageIcon} from '../svgs/language-solid.svg'
+import ScrollReveal from 'scrollreveal'
 
 function Formacao() {
+    useEffect(() =>{
+        ScrollReveal().reveal('.slide-left', {
+          duration: 800, // duração da animação (em ms)
+          distance: '40px', // distância do deslocamento
+          origin: 'left', // direção da animação (de baixo para cima)
+          reset: true, // se true, a animação será repetida toda vez que o usuário rolar para fora e voltar
+          easing: 'ease-in-out', // estilo de animação
+        })
+      }, []);
+
   return (
     <>
       <section className='Forma' id="Forma">
-        <div className='forma-left'>    
+        <div className='forma-left slide-left'>    
             <h1>Formação</h1>
             <p>Tenho <b>curso técnico</b> em informática pela univap unidade centro, atualmente estou fazendo <b>faculdade</b> de Sistemas para Internet no Senac e esse ano também realizei alguns <b>cursos</b> na origamid para ganhar mais conhecimento na área.</p>
             <div className='blocks'>
@@ -27,7 +38,7 @@ function Formacao() {
                 </div>
             </div>
         </div>
-        <div className='forma-right'>
+        <div className='forma-right slide-left'>
             <div className='lists'>
                 <h2><BookOpenIcon className="icon-list"/> Cursos intensivos</h2>
                 <ul>

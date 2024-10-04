@@ -33,5 +33,10 @@
         "imagem": "https://i.imgur.com/Hxnf8II.png",
         "titulo": "Discord Loading Screen",
         "text": "Página em HTML e CSS que imita o layout da tela de carregamento do discord"
+    },{
+        "link": "https://github.com/EduardoEliasFdeLima/KLK_UI_DESIGN",
+        "imagem": "https://i.imgur.com/cHHOF1k.png",
+        "titulo": "UI DESIGN KILL LA KILL",
+        "text": "Testes de Design com html e css."
     }
 ]
