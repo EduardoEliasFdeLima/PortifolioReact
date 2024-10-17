@@ -22,19 +22,21 @@ header ul li {
     display: inline;
     margin: 10px ;
     font-family: 'Fira Sans', 'sans-serif';
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
 }
 
 
 
 header a{
     text-decoration: none;
-  
     color: var(--white-font-black-font-main);
     
 }
 
 header ul li:hover{
-    text-decoration: underline  ;
+    text-decoration: underline;
     opacity: .5;
 }
 

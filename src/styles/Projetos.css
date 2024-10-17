@@ -93,7 +93,19 @@
  
 }
 
+.tecnoIcons{
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
 
+.icon-card-proj{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    color: #fff;
+    fill: #A19999;
+}
 
 @media screen and (max-width: 1300px){
 
