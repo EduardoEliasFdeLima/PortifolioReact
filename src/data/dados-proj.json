@@ -38,5 +38,11 @@
         "imagem": "https://i.imgur.com/cHHOF1k.png",
         "titulo": "UI DESIGN KILL LA KILL",
         "text": "Testes de Design com html e css."
+    },
+    {
+        "link": "https://github.com/EduardoEliasFdeLima/HealthTooth",
+        "imagem": "https://i.imgur.com/5Bmx0Kx.png",
+        "titulo": "HealthTooth",
+        "text": "Site com o tema de dentista, empresa fictícia apenas para testar os habilidades com web design"
     }
 ]
