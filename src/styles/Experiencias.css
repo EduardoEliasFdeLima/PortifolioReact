@@ -1,4 +1,3 @@
-
 .Expe{
     position: relative;
     z-index: 1;
@@ -13,7 +12,6 @@
 .Expe .left-cont{
     position: relative;
     width: 45%;
-    /* background-color: aqua; */
 }
 
 .Expe .left-cont::before{
@@ -26,9 +24,7 @@
     height: 300px;
     background-color: #2B2B2B;
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
-   
 }
-
 
 @keyframes up-down {
     0% {
@@ -36,10 +32,8 @@
     }
     100% {
         transform: translateX(-5px);
-    }
-    
+    } 
 }
-
 
 .Expe .left-cont .line{
     margin-top: 20px;
@@ -48,16 +42,12 @@
     background-color: var(--second-color);
 }
 
-
-
-
 .Expe .left-cont h1{
     font-size: 50px;
     text-transform: uppercase;
     color: var(--main-color);
     padding-bottom: 20px;
 }
-
 
 .Expe .left-cont p{
     font-family: 'Roboto';
@@ -66,7 +56,6 @@
     font-weight: 500;
     line-height: 1.6rem;
 }
-
 
 .Expe .right-cont .card{
     position: relative;
@@ -84,22 +73,17 @@
     position: absolute;
     width: 4px;
     height: 60%;
-   
     background-color: var(--main-color);
     top: 0;
     left: -4px;
     border-top-left-radius: 10px;
-
 }
 
 
 .Expe .right-cont .card:hover{
     background-color: #2b2a2a;
     animation: up .4s ease-in-out;
-
 }
-
-
 
 @keyframes up {
     to{
@@ -115,9 +99,7 @@
     font-size: 12px;
 }
 
-
 .Expe .right-cont .card h3{
-  
     color: var(--white-font-black-font-main);
     font-size: 15px;
     padding-bottom: 10px;
@@ -126,7 +108,6 @@
 .txt-card{
     display: flex;
     justify-content: space-between;
-
 }
 
 .txt-card p{
@@ -135,19 +116,16 @@
 
 .icon-card{
     margin-top: -70px;
-
     fill: var(--second-color);
     width: 30px;
 }
 
 
 @media screen and (max-width: 1300px){
-    
     .Expe{
         padding: 160px 100px;
     }
 }
-
 
 @media screen and (max-width: 1000px){
     
@@ -156,7 +134,6 @@
         padding: 120px 100px;
         height: max-content;
     }
-
         
     .Expe .left-cont h1{
         padding-bottom: 10px;
@@ -172,21 +149,12 @@
 
     .right-cont{
         display: flex;
-        
-        /* background-color: #DEC834; */
-        /* justify-content: center;
-        align-items: center; */
         flex-direction: column;
     }
    
 }
 
-
-
-
 @media screen and (max-width: 700px){
-
-    
     .Expe{
         padding: 120px 70px;
     }
@@ -194,13 +162,11 @@
      .Expe .right-cont .card{
         width: 100%;
     }
-
-    
+ 
     .Expe .left-cont h1{
         font-size: 40px;
     }
 }
-
 
 
 @media screen and (max-width: 500px){
@@ -215,29 +181,24 @@
         height: max-content;
     }
 
-
     .Expe .left-cont h1{
         font-size: 35px;
     }
-
-        
+ 
     .Expe .left-cont p{
         margin-top: 12px;
         font-size: 15px;
         line-height: 1.4rem;
     }
-
         
     .icon-card{
         margin-top: -30px;
     }
-
         
     .icon-card{
         width: 25px;
     }
-
-        
+  
     .Expe .left-cont::before{
         left: -150px;
         width: 170px;
@@ -260,5 +221,4 @@
         height: max-content;
     }
     
-  
 }

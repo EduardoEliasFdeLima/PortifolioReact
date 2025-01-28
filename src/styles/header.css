@@ -12,7 +12,6 @@ header{
     z-index: 999;
 }
 
-
 header ul{
     display: inline;
     list-style-type: none;     
@@ -27,12 +26,9 @@ header ul li {
     font-size: 15px;
 }
 
-
-
 header a{
     text-decoration: none;
     color: var(--white-font-black-font-main);
-    
 }
 
 header ul li:hover{
@@ -45,10 +41,7 @@ header img{
     height: 40px;
 }
 
-
 header ul li.ativo a{
-    /* text-decoration: underline;
-    color: var(--second-color); */
     border-bottom: 1px solid  var(--white-font-black-font-main);;
     color: var(--second-color);
 }
@@ -58,7 +51,6 @@ header ul li.ativo a{
     position: relative;
     width: 16px;
     height: 2px;
-    /* background-color: #ffffff; */
     background-color: var(--white-font-black-font-main);
     cursor: pointer;
 }
@@ -80,7 +72,6 @@ header ul li.ativo a{
     content: '';
     width: 16px;
     height: 2px;
-    /* background-color: #ffffff; */
     background-color: var(--white-font-black-font-main);
 }
 
@@ -92,7 +83,6 @@ header ul li.ativo a{
     bottom: 5px;
 }
  
-
 .menux::after, .menux::before{
     position: absolute;
     content: '';
@@ -114,8 +104,6 @@ header ul li.ativo a{
 }
 
 
-
-
 @media screen and (max-width: 1300px) {
     header{
         padding: 10px 100px;
@@ -127,9 +115,7 @@ header ul li.ativo a{
 @media screen and (max-width: 1000px) {
 
     header{
-        /* position: fixed; */
         padding: 10px 100px;
-        
     }
     
     header ul{
@@ -140,14 +126,10 @@ header ul li.ativo a{
         z-index: 3;
         left: 0%;
         top: -1000%;
-        /* top: 33px; */
         transition: .7s;
         display: block;
-
         margin: 0px;
         text-align: center;
-
-         
     }
 
     header ul li{
@@ -162,8 +144,7 @@ header ul li.ativo a{
     .menux{
         display: block;
     }
-
-        
+   
     header img{
         width: 30px;
         height: 30px;
@@ -179,7 +160,6 @@ header ul li.ativo a{
 
 
 @media screen and (max-width: 500px) {
-
     header{
         padding: 10px 30px;
     }
@@ -188,14 +168,12 @@ header ul li.ativo a{
 
 @media screen and (max-width: 450px) {
     header{
-        padding: 10px 30px;;
+        padding: 10px 30px;
     }
-
-        
+  
     header img{
         width: 30px;
         height: 30px;
     }
-
 
 }

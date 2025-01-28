@@ -31,12 +31,9 @@
 .row{
     margin-top: 50px;
     width: 100%;
-    /* background-color: #DEC834; */
     display: flex;
     flex-direction: row;
     gap: 15px;
-    
-    /* justify-content: space-between; */
     flex-wrap: wrap;
 }
 
@@ -53,10 +50,7 @@
     /* box-shadow: 3px 3px 4px #c6c2c2; */
     overflow: hidden;
     border-radius: 5px;
-    
 }
-
-
 
 .card-proj img{
     transition: .5s;
@@ -69,7 +63,6 @@
 
 .card-proj .text-card{
     padding: 12px;
-    
 }
 
 .card-proj h3{
@@ -90,7 +83,6 @@
     font-size: 13px;
     position: absolute;
     bottom: 15px;
- 
 }
 
 .tecnoIcons{
@@ -126,8 +118,7 @@
     .Proj{
         padding: 120px 70px;
     }
-
-        
+  
     .Proj h1{
         font-size: 40px;
         padding-bottom: 10px;
@@ -137,8 +128,7 @@
 
 
 @media screen and (max-width: 500px){
-
-        
+     
     .Proj p{
        font-size: 15px;
         margin-top: 10px;
@@ -147,8 +137,7 @@
     }
 
     .Proj{
-        padding: 80px 30px;
-        
+        padding: 80px 30px;  
     }
 
         
@@ -159,7 +148,8 @@
 
     .row{
         gap: 15px;
-        /* justify-content: space-between; */
+        width: 100%;
+        justify-content: space-around;
     }
 
 
@@ -167,16 +157,12 @@
         position: relative;
         width: 160px;
         height: 210px;
-        margin: auto;
-      
+        margin: auto;   
     }
 
-        
     .card-proj .text-card{
-        padding: 10px;
-        
+        padding: 10px;        
     }
-
         
     .card-proj h3{
         font-size: 11px;
@@ -190,7 +176,6 @@
         margin-top: 10px;
     }
     
-
 }
 
 
@@ -200,12 +185,10 @@
         min-height: 210px;
         height: max-content;
         margin: auto;
-      
     }
 
     .row{
-       /* background-color: #DEC834; */
-       display: flex;
+        display: flex;
         justify-content: center;
         align-items: center;
     }
