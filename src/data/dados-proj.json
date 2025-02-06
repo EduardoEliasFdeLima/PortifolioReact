@@ -18,6 +18,12 @@
         "text": "Página web que é possivel fazer busca dos agentes do jogo. Tudo feito em HTML,CSS e JS utilizando filter."
     },
     {
+        "link": "https://github.com/EduardoEliasFdeLima/Pokedex",
+        "imagem": "https://i.imgur.com/WeI33sN.png",
+        "titulo": "Pokedex com javascript",
+        "text": "Pokedex feita com javascrip puro, com filtro de tipos e todas gerações de pokemons"
+    },
+    {
         "link": "https://github.com/EduardoEliasFdeLima/CellsAtWork-RandomMSG",
         "imagem": "https://i.imgur.com/9977jrm.png",
         "titulo": "Frases aleatórias com interações",
