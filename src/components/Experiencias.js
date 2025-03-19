@@ -22,8 +22,8 @@ function Experiencias() {
       <section className='Expe' id="Expe">
           <div className='left-cont slide-left'>
             <h1>Experiência</h1>
-            <p>Fui jovem aprendiz em <b>suporte de ti/infraestrutura</b> por 8 meses em uma rede de padarias</p>
-            <p>Realizo pequenos projetos utilizando <b>HTML</b>, <b>CSS</b> e <b>JS</b>. Recentemente estou implementando projetos com <b>UI design</b> e <b>React</b>.</p>
+            <p>Jovem aprendiz em <b>suporte de ti/infraestrutura</b> por 8 meses em uma rede de padarias em Santa Maria - RS</p>
+            <p>Realização de pequenos projetos utilizando <b>HTML</b>, <b>CSS</b> e <b>JS</b>. Recentemente implementando projetos com <b>UI design</b> e <b>React</b>.</p>
             <div className='line' id="line"></div>
           </div>
           
@@ -33,7 +33,7 @@ function Experiencias() {
               <h3>2021 - TCC ConfeitaLibras</h3>
               <div className='txt-card'>
                 <p>Realização de TCC para conclusão do curso técnico em informática no ano
-                de 2021. Utilizando PHP, MySQL, HTML, CSS e JS.</p>
+                de 2021. Utilizando <u>PHP</u>, <u>MySQL</u>, <u>HTML</u>, <u>CSS</u> e <u>JavaSript</u>.</p>
                 <BookIcon className="icon-card"/>
               </div>
             </div>
@@ -41,8 +41,8 @@ function Experiencias() {
             <div className='card slide-left'>  
               <h3>2022/atualmente - projetos pessoais</h3>
               <div className='txt-card'>
-                <p>Faço diversos projetos pessoais utilizando HTML, CSS e JS. Disponibilizo tudo no meu 
-                Github e pretendo fazer cada vez mais projetos.</p>
+                <p>Diversos projetos pessoais utilizando <u>HTML</u>, <u>CSS</u>, <u>JavaSript</u> e <u>UI design</u>. Todos disponibilizados no meu 
+                Github.</p>
                 <FolderIcon className="icon-card"/>
               </div>
             </div>
@@ -50,8 +50,8 @@ function Experiencias() {
             <div className='card slide-left'>  
               <h3>2023 - jovem aprendiz de suporte de TI</h3>
               <div className='txt-card'>
-                <p>Jovem Aprendiz por 8 meses na empresa OBA! é muito bom,  trabalhei como suporte
-                de TI,  na infraestrutura e ganhei bastante experiências profissionais.</p>
+                <p>Jovem Aprendiz por 8 meses na empresa <u>OBA!</u>. Atuei como suporte
+                de TI e também na infraestrutura, ganhando bastante experiências profissionais.</p>
                 <ToolIcon className="icon-card"/>
               </div>
             </div>

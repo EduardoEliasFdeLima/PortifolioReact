@@ -26,7 +26,7 @@ function Projetos() {
     <>
       <section className='Proj' id="Proj">
         <h1>Projetos</h1>
-        <p>Realizo alguns projetos pessoais  e disponibilizo no github os códigos , <b>clique</b> em qualquer um deles para acessar</p>
+        <p>Esses são alguns dos projetos pessoais disponibilizados, <b>clique</b> em qualquer um deles para acessar a página com o código no github e link para acessar o site.</p>
         <div className='row slide-left'>
             {cardproj.map(cardproj => (
                 <CardProjetos key={cardproj.imagem} links={cardproj.link} imagem={cardproj.imagem} titulo={cardproj.titulo} text={cardproj.text} />

@@ -20,7 +20,7 @@ function Formacao() {
       <section className='Forma' id="Forma">
         <div className='forma-left slide-left'>    
             <h1>Formação</h1>
-            <p>Tenho <b>curso técnico</b> em informática pela univap unidade centro, atualmente terminei a <b>faculdade</b> de Sistemas para Internet no Senac e esse ano também realizei alguns <b>cursos</b> na origamid para ganhar mais conhecimento na área.</p>
+            <p><b>Curso técnico</b> em informática pela univap unidade centro e <b>ensino superior</b> completo em Sistemas para Internet no Senac. <b>Cursos intensivos</b> na origamid em 2023 para ganhar mais conhecimento na área.</p>
             <div className='blocks'>
                 <div className='block'>
                     <h2>Curso técnico</h2>

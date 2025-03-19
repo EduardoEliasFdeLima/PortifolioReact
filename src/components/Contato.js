@@ -25,7 +25,7 @@ function Contato() {
             <h1>Contato</h1>
             <div className='contato-contain slide-left'>
                 <div className='contato-left'>
-                    <p>Estou disponível para propostas. Entre em contato comigo</p>
+                    <p>Disponível para propostas! Entre em contato comigo por algum desses tópicos aos lados</p>
                 </div>
                 <div className='contato-right'>
                     <ul>

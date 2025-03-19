@@ -1,15 +1,9 @@
 [
     {
-        "link": "https://github.com/EduardoEliasFdeLima/Akats",
-        "imagem": "https://i.imgur.com/SmXBcg5.png",
-        "titulo": "Página web da Akatsuki",
-        "text": "Site sobre a Akatsuki do anime de Naruto, usando alguns conceitos de UI design. O site é feito em HTML, CSS e JS."
-    },
-    {
-        "link": "https://github.com/EduardoEliasFdeLima/K-on_paginaweb",
-        "imagem": "https://i.imgur.com/1SrUNiB.png",
-        "titulo": "Página web de K-ON!",
-        "text": "É um site sobre K-on, utilizando alguns conceitos de UI design e o site é puramente feito em HTML, CSS e JS."
+        "link": "https://github.com/EduardoEliasFdeLima/HealthTooth",
+        "imagem": "https://i.imgur.com/5Bmx0Kx.png",
+        "titulo": "HealthTooth",
+        "text": "Site com o tema de dentista, empresa fictícia apenas para testar os habilidades com web design"
     },
     {
         "link": "https://github.com/EduardoEliasFdeLima/ValorantAgents",
@@ -21,9 +15,31 @@
         "link": "https://github.com/EduardoEliasFdeLima/Pokedex",
         "imagem": "https://i.imgur.com/WeI33sN.png",
         "titulo": "Pokedex com javascript",
-        "text": "Pokedex feita com javascrip puro, com filtro de tipos e todas gerações de pokemons"
+        "text": "Pokedex feita com javascrip puro, com filtro de tipos e todas gerações de pokemons"  
     },
     {
+        "link": "https://github.com/EduardoEliasFdeLima/K-on_paginaweb",
+        "imagem": "https://i.imgur.com/1SrUNiB.png",
+        "titulo": "Página web de K-ON!",
+        "text": "É um site sobre K-on, utilizando alguns conceitos de UI design e o site é puramente feito em HTML, CSS e JS."
+    },
+    {
+        "link": "https://github.com/EduardoEliasFdeLima/KLK_UI_DESIGN",
+        "imagem": "https://i.imgur.com/cHHOF1k.png",
+        "titulo": "UI DESIGN KILL LA KILL",
+        "text": "Testes de Design com html e css."
+    },
+    {
+        "link": "https://github.com/EduardoEliasFdeLima/Akats",
+        "imagem": "https://i.imgur.com/SmXBcg5.png",
+        "titulo": "Página web da Akatsuki",
+        "text": "Site sobre a Akatsuki do anime de Naruto, usando alguns conceitos de UI design. O site é feito em HTML, CSS e JS."
+    },{
+        "link": "https://github.com/EduardoEliasFdeLima/Discord-LoadingScreen",
+        "imagem": "https://i.imgur.com/Hxnf8II.png",
+        "titulo": "Discord Loading Screen",
+        "text": "Página em HTML e CSS que imita o layout da tela de carregamento do discord"
+    },{
         "link": "https://github.com/EduardoEliasFdeLima/CellsAtWork-RandomMSG",
         "imagem": "https://i.imgur.com/9977jrm.png",
         "titulo": "Frases aleatórias com interações",
@@ -34,21 +50,5 @@
         "imagem": "https://i.imgur.com/GBzH15V.png",
         "titulo": "Tabuada com anime",
         "text": "Página web que calcula a tabuada do número digitado e insere no card que a personagem está segurando e Design responsivo."
-    },{
-        "link": "https://github.com/EduardoEliasFdeLima/Discord-LoadingScreen",
-        "imagem": "https://i.imgur.com/Hxnf8II.png",
-        "titulo": "Discord Loading Screen",
-        "text": "Página em HTML e CSS que imita o layout da tela de carregamento do discord"
-    },{
-        "link": "https://github.com/EduardoEliasFdeLima/KLK_UI_DESIGN",
-        "imagem": "https://i.imgur.com/cHHOF1k.png",
-        "titulo": "UI DESIGN KILL LA KILL",
-        "text": "Testes de Design com html e css."
-    },
-    {
-        "link": "https://github.com/EduardoEliasFdeLima/HealthTooth",
-        "imagem": "https://i.imgur.com/5Bmx0Kx.png",
-        "titulo": "HealthTooth",
-        "text": "Site com o tema de dentista, empresa fictícia apenas para testar os habilidades com web design"
     }
 ]
