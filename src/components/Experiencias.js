@@ -50,7 +50,7 @@ function Experiencias() {
             <div className='card slide-left'>  
               <h3>2023 - jovem aprendiz de suporte de TI</h3>
               <div className='txt-card'>
-                <p>Jovem Aprendiz por 8 meses na empresa <u>OBA!</u>. Atuei como suporte
+                <p>Jovem Aprendiz por 8 meses na empresa <u>OBA!</u>. Atuando como suporte
                 de TI e também na infraestrutura, ganhando bastante experiências profissionais.</p>
                 <ToolIcon className="icon-card"/>
               </div>
