@@ -12,6 +12,7 @@
 .Expe .left-cont{
     position: relative;
     width: 45%;
+    
 }
 
 .Expe .left-cont::before{
@@ -43,7 +44,7 @@
 }
 
 .Expe .left-cont h1{
-    font-size: 50px;
+    font-size: 55px;
     text-transform: uppercase;
     color: var(--main-color);
     padding-bottom: 20px;
@@ -52,17 +53,21 @@
 .Expe .left-cont p{
     font-family: 'Roboto';
     color: #A19999;
-    margin-top: 20px;
+    margin-top: 25px;
     font-weight: 500;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
+    font-size: 24px;
 }
 
 .Expe .right-cont .card{
     position: relative;
     background-color: #1A1A1A;
-    width: 430px;
-    height: 140px;
-    padding: 20px;
+    /* width: 430px;
+    height: 140px; */
+    width: 620px;
+    height: 150px;
+    padding: 20px 30px;
+    padding-bottom: 20px;
     border-radius: 10px;
     border-top-left-radius: 0px;
     margin-bottom: 20px;
@@ -96,12 +101,12 @@
 
 .Expe .right-cont .card p{
     color: #838080;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .Expe .right-cont .card h3{
     color: var(--white-font-black-font-main);
-    font-size: 15px;
+    font-size: 20px;
     padding-bottom: 10px;
 }
 
@@ -119,6 +124,22 @@
     fill: var(--second-color);
     width: 30px;
 }
+
+
+@media screen and (max-width: 1920px){
+    .Expe{
+        padding: 160px 150px;
+    }
+
+        
+    .Expe .right-cont .card{
+        width: 580px;
+        height: 150px;
+        padding: 20px 30px;
+        padding-bottom: 20px;
+    }
+}
+
 
 
 @media screen and (max-width: 1300px){

@@ -33,12 +33,13 @@
 }
 
 .right-contain{
-    width: 400px;
+    width: 700px;
 }
 
 .right-contain h1{
     color: var(--white-font-black-font-main);
-    font-size: 50px;
+    /* font-size: 50px; */
+    font-size: 75px;
     margin-top: -16px;
     font-family: 'Playfair Display';
 }
@@ -50,10 +51,11 @@
 
 .right-contain p{
     color: #e9e7e7;
+    font-size: 24px;
 }
 
 .local-pin{
-    width: 10px; 
+    width: 20px; 
     fill: #e9e7e7; 
 }
 
@@ -70,12 +72,15 @@
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    padding: 10px 15px;
+    /* padding: 10px 15px; */
+    padding: 20px 25px;
     background-color: var(--third-color);
-    font-size: 1rem;
+    /* font-size: 1rem; */
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 500;
-    max-width: 200px;
+    /* max-width: 200px; */
+    max-width: 300px;
     transition: .4s;
 }
 
@@ -92,8 +97,54 @@
 
 .icon-code{
     fill: var(--third-color);
-    width: 26px;
+    width: 36px;
 }
+
+
+@media screen and (max-width: 2520px) {
+
+        
+    .right-contain{
+        width: 700px;
+    }
+            
+    .right-contain h1{
+        font-size: 70px;
+    }
+}
+
+
+@media screen and (max-width: 1920px) {
+
+        
+    .right-contain{
+        width: 400px;
+    }
+            
+    .right-contain h1{
+        font-size: 50px;
+    }
+
+        
+    .right-contain .text-rc button{
+        /* padding: 10px 15px; */
+        padding: 15px 25px;
+        /* font-size: 1rem; */
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        /* max-width: 200px; */
+        max-width: 220px;
+        transition: .4s;
+    }
+
+    .main-contain{
+        padding: 0px 150px;
+    }
+}
+
+
+
 
 
 @media screen and (max-width: 1300px) {

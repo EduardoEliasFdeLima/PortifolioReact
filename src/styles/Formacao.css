@@ -10,7 +10,7 @@
 }
 
 .Forma h1{
-    font-size: 50px;
+    font-size: 55px;
     text-transform: uppercase;
     color: var(--main-color);
 }
@@ -25,7 +25,8 @@
     color: #A19999;
     margin-top: 20px;
     font-weight: 500;
-    line-height: 1.6rem;
+    line-height: 2.2rem;
+    font-size: 24px;
 }
 
 .blocks{
@@ -88,6 +89,7 @@
 
 
 .forma-right{
+    margin-top: 70px;
     position: relative;
     z-index: 1;
 }
@@ -110,7 +112,8 @@
     font-weight: 500;
     list-style: none;
     margin-left: 20px;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
+    font-size: 20px;
 }
 
 .forma-right ul li a{
@@ -139,6 +142,15 @@
     fill: var(--white-font-black-font-main);
     width: 16px;
 }
+
+
+
+@media screen and (max-width: 1920px){  
+    .Forma{
+        padding: 160px 150px;
+    }
+}
+
 
 
 @media screen and (max-width: 1300px){  

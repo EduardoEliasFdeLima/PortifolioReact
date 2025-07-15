@@ -69,6 +69,14 @@
     color: #A19999;
 }
 
+
+@media screen and (max-width: 1920px){   
+    .footer{
+        padding: 120px 150px;
+    }
+}
+
+
 @media screen and (max-width: 1300px){   
     .footer{
         padding: 160px 100px;

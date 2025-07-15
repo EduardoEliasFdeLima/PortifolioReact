@@ -14,7 +14,7 @@
 }
 
 .Proj h1{
-    font-size: 50px;
+    font-size: 55px;
     text-transform: uppercase;
     color: var(--main-color);
     padding-bottom: 20px;
@@ -26,6 +26,7 @@
     margin-top: 20px;
     font-weight: 500;
     line-height: 1.6rem;
+    font-size: 24px;
 }
 
 .row{
@@ -99,6 +100,15 @@
     fill: #A19999;
 }
 
+
+@media screen and (max-width: 1920px){
+
+    .Proj{
+        padding: 120px 150px;
+    }
+
+}
+
 @media screen and (max-width: 1300px){
 
     .Proj{
@@ -110,8 +120,6 @@
     }
 
 }
-
-
 
 @media screen and (max-width: 700px){
 
