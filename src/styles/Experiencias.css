@@ -128,7 +128,8 @@
 
 @media screen and (max-width: 1920px){
     .Expe{
-        padding: 160px 150px;
+        /* padding: 160px 150px; */
+        padding: 160px 250px;
     }
 
         
@@ -140,11 +141,24 @@
     }
 }
 
+@media screen and (max-width: 1700px){
+     .Expe{
+        padding: 160px 100px;
+    }
+}
+
 
 
 @media screen and (max-width: 1300px){
     .Expe{
         padding: 160px 100px;
+    }
+
+     .Expe .right-cont .card{
+        width: 520px;
+        height: 130px;
+        padding: 20px 30px;
+        padding-bottom: 20px;
     }
 }
 
@@ -186,6 +200,9 @@
  
     .Expe .left-cont h1{
         font-size: 40px;
+    }
+      .Expe .right-cont .card{
+        height: max-content;
     }
 }
 

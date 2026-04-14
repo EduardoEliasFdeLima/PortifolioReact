@@ -3,6 +3,7 @@ import '../styles/Experiencias.css'
 import {ReactComponent as FolderIcon} from '../svgs/folder-solid.svg'
 import {ReactComponent as BookIcon} from '../svgs/book-solid.svg'
 import {ReactComponent as ToolIcon} from '../svgs/wrench-solid.svg'
+import {ReactComponent as BoxIcon} from '../svgs/box-open-solid-full.svg'
 import ScrollReveal from 'scrollreveal'
 
 function Experiencias() {
@@ -53,6 +54,14 @@ function Experiencias() {
                 <p>Jovem Aprendiz por 8 meses na empresa <u>OBA!</u>. Atuando como suporte
                 de TI e também na infraestrutura, ganhando bastante experiências profissionais.</p>
                 <ToolIcon className="icon-card"/>
+              </div>
+            </div>
+
+            <div className='card slide-left'>  
+              <h3>2025 - Repositor Busca Busca</h3>
+              <div className='txt-card'>
+                <p>Por falta de oportunidade na área, já trabalhei como repositor</p>
+                <BoxIcon className="icon-card"/>
               </div>
             </div>
 

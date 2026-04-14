@@ -104,7 +104,8 @@
 @media screen and (max-width: 1920px){
 
     .Proj{
-        padding: 120px 150px;
+        /* padding: 120px 150px; */
+        padding: 120px 250px;
     }
 
 }
@@ -135,7 +136,8 @@
 }
 
 
-@media screen and (max-width: 500px){
+
+@media screen and (max-width: 630px){
      
     .Proj p{
        font-size: 15px;

@@ -104,9 +104,10 @@ header ul li.ativo a{
 }
 
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1950px) {
     header{
-        padding: 20px 150px;
+        /* padding: 20px 150px; */
+        padding: 20px 250px;
     }        
 }
 
